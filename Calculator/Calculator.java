@@ -1,5 +1,6 @@
 package Calculator;
 import java.io.*;
+import Exceptions.NoSuchOperationException;
 import java.util.*;
 
 public class Calculator {
@@ -43,10 +44,16 @@ public class Calculator {
     public static Operation getOperation(String name){
         Operation op = null;
         try{
+            if(operations.get(name) == null){
+                throw new NoSuchOperationException("There is no operation called " + name);
+            }
             op = (Operation) Class.forName(operations.get(name)).newInstance();
         }
         catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {
             e.printStackTrace();
+        }
+        catch (NoSuchOperationException e){
+            System.out.println(e.getMessage());
         }
         return op;
     }
