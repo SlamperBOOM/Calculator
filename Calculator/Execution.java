@@ -49,7 +49,12 @@ public class Execution {
                         arguments.add(splitedline[i]);
                     }
                 }
-                operation.calc(arguments, stack);
+                try {
+                    operation.calc(arguments, stack);
+                }
+                catch (Exception e) {
+                    System.out.println(e.getMessage());
+                }
                 if(EOF){
                     break;
                 }
