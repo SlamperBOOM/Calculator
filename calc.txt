@@ -1,0 +1,12 @@
+push 2
+define a 4.5
+push a
+sum
+push 2.5
+sum
+sqrt
+push 2.5
+multiply
+push 2
+divide
+print
