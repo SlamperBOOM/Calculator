@@ -1,0 +1,8 @@
+push -2
+define a 4.5
+#push a
+#sum
+sqrt
+print
+pop
+pop
