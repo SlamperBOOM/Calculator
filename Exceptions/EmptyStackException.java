@@ -1,6 +1,6 @@
 package Exceptions;
 
-public class EmptyStackException extends Exception{
+public class EmptyStackException extends CalculatorException{
     public EmptyStackException(String message){
         super(message);
     }

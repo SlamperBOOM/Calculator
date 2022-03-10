@@ -1,7 +1,7 @@
 push -2
 define a 4.5
 #push a
-#sum
+sum
 sqrt
 print
 pop

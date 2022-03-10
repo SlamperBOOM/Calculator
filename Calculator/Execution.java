@@ -1,5 +1,7 @@
 package Calculator;
 
+import Exceptions.CalculatorException;
+
 import java.io.*;
 import java.util.*;
 
@@ -52,7 +54,7 @@ public class Execution {
                 try {
                     operation.calc(arguments, stack);
                 }
-                catch (Exception e) {
+                catch (CalculatorException e) {
                     System.out.println(e.getMessage());
                 }
                 if(EOF){
