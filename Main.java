@@ -1,7 +1,5 @@
-
-import Calculator.Execution;
+import calculator.Execution;
 import java.io.*;
-import java.util.*;
 import java.lang.*;
 
 public class Main {
@@ -15,12 +13,12 @@ public class Main {
             {
                 input = new InputStreamReader(new FileInputStream(args[0]));
             }
+            Execution.exec(input);
         }
         catch (IOException e){
             e.printStackTrace();
         }
         finally {
-            Execution.exec(input);
             try{
                 if(input != null) {
                     input.close();
