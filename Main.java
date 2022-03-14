@@ -1,9 +1,12 @@
-import calculator.Execution;
+import calculator.Calculator;
+import calculator.CommandReader;
+import exceptions.CalculatorException;
+
 import java.io.*;
-import java.lang.*;
+import java.util.Arrays;
 
 public class Main {
-    public static void main(String args[]){
+    public static void main(String[] args){
         Reader input = null;
         try{
             if(args.length == 0){
@@ -13,7 +16,20 @@ public class Main {
             {
                 input = new InputStreamReader(new FileInputStream(args[0]));
             }
-            Execution.exec(input);
+            Calculator calculator = new Calculator();
+            while(true){
+                try{
+                    String[] splitLine = CommandReader.readOperation(input);
+                    if(splitLine[0].equals("")){
+                        System.out.println("End of input");
+                        break;
+                    }
+                    calculator.calculate(Arrays.asList(splitLine));
+                }
+                catch (CalculatorException e){
+                    System.err.println(e.getMessage());
+                }
+            }
         }
         catch (IOException e){
             e.printStackTrace();

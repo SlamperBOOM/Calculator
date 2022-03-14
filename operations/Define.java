@@ -1,21 +1,20 @@
 package operations;
 
-import calculator.Calculator;
-import calculator.Operation;
+import calculator.*;
+import exceptions.CalculatorException;
 
 import java.util.List;
 
-public class Define implements Operation {
+public class Define implements Operation{
     @Override
-    public List<Double> calc(List<String> arguments, List<Double> stack, Calculator calculator){
+    public void calc(List<Value> arguments, Context context) throws CalculatorException {
         try{
-            String parameterName = arguments.get(0);
-            Double parameter = Double.valueOf(arguments.get(1));
-            calculator.addParameter(parameterName, parameter);
+            String parameterName = arguments.get(0).toString();
+            Double parameter = arguments.get(1).toDouble();
+            context.addParameter(parameterName, parameter);
         }
         catch (NumberFormatException e){
             e.printStackTrace();
         }
-        return stack;
     }
 }

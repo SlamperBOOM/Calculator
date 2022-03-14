@@ -1,19 +1,24 @@
 package operations;
-import calculator.Calculator;
-import calculator.Operation;
-import java.util.*;
+
+import calculator.*;
+import exceptions.CalculatorException;
+import exceptions.NoArgumentsException;
+
+import java.util.List;
 
 public class Push implements Operation {
     @Override
-    public List<Double> calc(List<String> arguments, List<Double> stack, Calculator calculator) {
+    public void calc(List<Value> arguments, Context context) throws CalculatorException {
+        if(arguments.size() < 1){
+            throw new NoArgumentsException("Push: no arguments given to the method");
+        }
         Double arg;
-        try{
-            arg = Double.valueOf(arguments.get(0));
+        if(arguments.get(0).isIdentifier()) {
+            arg = arguments.get(0).toDouble();
         }
-        catch (NumberFormatException e){
-            arg = calculator.getParameter(arguments.get(0));
+        else{
+            arg = context.getParameter(arguments.get(0).toString());
         }
-        stack.add(arg);
-        return stack;
+        context.getStack().add(arg);
     }
 }
