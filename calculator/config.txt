@@ -1,9 +1,0 @@
-push operations.Push
-pop operations.Pop
-sum operations.Sum
-subtract operations.Subtract
-multiply operations.Multiply
-divide operations.Divide
-sqrt operations.Squareroot
-print operations.Print
-define operations.Define
