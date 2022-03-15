@@ -31,6 +31,7 @@ public class CommandReader {
                 line.append((char) symbol);
             }
             command = line.toString().split(" ");
+            command[0].toLowerCase();
         }
         catch (IOException e){
             e.printStackTrace();

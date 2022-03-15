@@ -18,12 +18,12 @@ public class Main {
             }
             Calculator calculator = new Calculator();
             while(true){
-                try{
-                    String[] splitLine = CommandReader.readOperation(input);
-                    if(splitLine[0].equals("")){
-                        System.out.println("End of input");
-                        break;
-                    }
+                String[] splitLine = CommandReader.readOperation(input);
+                if(splitLine[0].equals("")){
+                    System.out.println("End of input");
+                    break;
+                }
+                try {
                     calculator.calculate(Arrays.asList(splitLine));
                 }
                 catch (CalculatorException e){

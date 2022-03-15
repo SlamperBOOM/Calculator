@@ -21,7 +21,7 @@ public class Value {
             return Double.valueOf(value);
         }
         catch (NumberFormatException e){
-            throw new NoConvertAvailableException("Value.toDouble:couldn't convert " + value + " to Double");
+            throw new NoConvertAvailableException("Value.toDouble: couldn't convert " + value + " to Double");
         }
     }
 

@@ -1,5 +1,7 @@
 package calculator;
 
+import exceptions.NoParameterException;
+
 import java.util.*;
 
 public class Context {
@@ -14,7 +16,12 @@ public class Context {
         parameters.put(name, value);
     }
 
-    public Double getParameter(String name){
-        return parameters.get(name);
+    public Double getParameter(String name) throws NoParameterException {
+        if(parameters.get(name) == null) {
+            throw new NoParameterException("getParameter: no parameter by name " + name);
+        }
+        else {
+            return parameters.get(name);
+        }
     }
 }

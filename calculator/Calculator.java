@@ -13,12 +13,15 @@ public class Calculator {
         operations = new OperationsCreator();
     }
 
-    public void calculate(List<String> arguments) throws CalculatorException { //0 - calculated successfully, 1 - EOF
+    public List<Double> getConstantStack(){
+        return List.copyOf(context.getStack()); //if we try to add/delete element from this stack, actual stack wouldn't be changed
+    }
+
+    public void calculate(List<String> arguments) throws CalculatorException{ //0 - calculated successfully, 1 - EOF
         Operation operation = operations.getOperation(arguments.get(0));
-        if(arguments.size() > 1) {
+        if (arguments.size() > 1) {
             operation.calc(Value.convertStringList(arguments.subList(1, arguments.size())), context);
-        }
-        else{
+        } else {
             operation.calc(new ArrayList<Value>(), context);
         }
     }
