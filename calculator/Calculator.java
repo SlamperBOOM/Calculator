@@ -19,10 +19,17 @@ public class Calculator {
 
     public void calculate(List<String> arguments) throws CalculatorException{ //0 - calculated successfully, 1 - EOF
         Operation operation = operations.getOperation(arguments.get(0));
-        if (arguments.size() > 1) {
-            operation.calc(Value.convertStringList(arguments.subList(1, arguments.size())), context);
-        } else {
-            operation.calc(new ArrayList<Value>(), context);
+        try {
+            List<Double> oldStack = getConstantStack();
+            if (arguments.size() > 1) {
+                operation.calc(Value.convertStringList(arguments.subList(1, arguments.size())), context);
+            } else {
+                operation.calc(new ArrayList<Value>(), context);
+            }
+            context.getLogger().logInfo(arguments, oldStack, getConstantStack());
+        }catch (CalculatorException e){
+            context.getLogger().logError(e);
+            throw e;
         }
     }
 }

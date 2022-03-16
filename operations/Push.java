@@ -13,7 +13,7 @@ public class Push implements Operation {
             throw new NoArgumentsException("Push: no arguments given to the method");
         }
         Double arg;
-        if(arguments.get(0).isIdentifier()) {
+        if(!arguments.get(0).isIdentifier()) {
             arg = arguments.get(0).toDouble();
         }
         else{

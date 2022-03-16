@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-03-16T13:51:04.728701100Z</date>
+  <millis>1647438664728</millis>
+  <nanos>701100</nanos>
+  <sequence>0</sequence>
+  <logger>calculator.CalculatorLogger</logger>
+  <level>INFO</level>
+  <class>calculator.CalculatorLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>push -2 to stack</message>
+</record>
+<record>
+  <date>2022-03-16T13:51:04.766709600Z</date>
+  <millis>1647438664766</millis>
+  <nanos>709600</nanos>
+  <sequence>1</sequence>
+  <logger>calculator.CalculatorLogger</logger>
+  <level>INFO</level>
+  <class>calculator.CalculatorLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>define a as 4.5</message>
+</record>
+<record>
+  <date>2022-03-16T13:51:04.766709600Z</date>
+  <millis>1647438664766</millis>
+  <nanos>709600</nanos>
+  <sequence>2</sequence>
+  <logger>calculator.CalculatorLogger</logger>
+  <level>INFO</level>
+  <class>calculator.CalculatorLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>push a to stack</message>
+</record>
+<record>
+  <date>2022-03-16T13:51:04.768710Z</date>
+  <millis>1647438664768</millis>
+  <nanos>710000</nanos>
+  <sequence>3</sequence>
+  <logger>calculator.CalculatorLogger</logger>
+  <level>INFO</level>
+  <class>calculator.CalculatorLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>sum -2.0 and 4.5. put 2.5 in stack</message>
+</record>
+<record>
+  <date>2022-03-16T13:51:04.769710300Z</date>
+  <millis>1647438664769</millis>
+  <nanos>710300</nanos>
+  <sequence>4</sequence>
+  <logger>calculator.CalculatorLogger</logger>
+  <level>INFO</level>
+  <class>calculator.CalculatorLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>push 2 to stack</message>
+</record>
+<record>
+  <date>2022-03-16T13:51:04.770710600Z</date>
+  <millis>1647438664770</millis>
+  <nanos>710600</nanos>
+  <sequence>5</sequence>
+  <logger>calculator.CalculatorLogger</logger>
+  <level>INFO</level>
+  <class>calculator.CalculatorLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>multiply 2.5 and 2.0. put 5.0 in stack</message>
+</record>
+<record>
+  <date>2022-03-16T13:51:04.771710800Z</date>
+  <millis>1647438664771</millis>
+  <nanos>710800</nanos>
+  <sequence>6</sequence>
+  <logger>calculator.CalculatorLogger</logger>
+  <level>INFO</level>
+  <class>calculator.CalculatorLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>print 5.0</message>
+</record>
+<record>
+  <date>2022-03-16T13:51:04.772710800Z</date>
+  <millis>1647438664772</millis>
+  <nanos>710800</nanos>
+  <sequence>7</sequence>
+  <logger>calculator.CalculatorLogger</logger>
+  <level>INFO</level>
+  <class>calculator.CalculatorLogger</class>
+  <method>logInfo</method>
+  <thread>1</thread>
+  <message>pop 5.0 from stack</message>
+</record>
+<record>
+  <date>2022-03-16T13:51:04.773711200Z</date>
+  <millis>1647438664773</millis>
+  <nanos>711200</nanos>
+  <sequence>8</sequence>
+  <logger>calculator.CalculatorLogger</logger>
+  <level>SEVERE</level>
+  <class>calculator.CalculatorLogger</class>
+  <method>logError</method>
+  <thread>1</thread>
+  <message>exceptions.EmptyStackException Pop: no values in stack</message>
+</record>
+</log>

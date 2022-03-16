@@ -7,9 +7,14 @@ import java.util.*;
 public class Context {
     private List<Double> stack = new ArrayList<Double>();
     private Map<String, Double> parameters = new HashMap<String, Double>();
+    private CalculatorLogger logger = new CalculatorLogger();
 
     public List<Double> getStack(){
         return stack;
+    }
+
+    public CalculatorLogger getLogger(){
+        return logger;
     }
 
     public void addParameter(String name, Double value){

@@ -26,10 +26,7 @@ public class Value {
     }
 
     public boolean isIdentifier(){
-        if(SourceVersion.isIdentifier(value)){
-            return false;
-        }
-        return true;
+        return SourceVersion.isIdentifier(value);
     }
 
     public static List<Value> convertStringList(List<String> stringList){
