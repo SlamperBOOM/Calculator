@@ -12,13 +12,13 @@ public class CalculatorLogger {
     public CalculatorLogger(){
         logger = Logger.getLogger(this.getClass().getName());
         try {
-            logger.addHandler(new FileHandler("src/calculator/log.log"));
+            logger.addHandler(new FileHandler("src/calculator/logging/log.log"));
         }catch (IOException e){
             e.printStackTrace();
         }
     }
 
-    public void logInfo(List<String> command, List<Double> oldStack, List<Double> newStack){
+    public void logOperation(List<String> command, List<Double> oldStack, List<Double> newStack){
         StringBuilder message = new StringBuilder();
         message.append(command.get(0)).append(" ");
         if(command.size() == 3){ //only define
@@ -44,5 +44,9 @@ public class CalculatorLogger {
 
     public void logError(CalculatorException exception){
         logger.severe(exception.getClass().getName() + " " + exception.getMessage());
+    }
+
+    public void logInitialization(String message){
+        logger.info(message);
     }
 }

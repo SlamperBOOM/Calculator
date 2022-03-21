@@ -9,6 +9,10 @@ public class Context {
     private Map<String, Double> parameters = new HashMap<String, Double>();
     private CalculatorLogger logger = new CalculatorLogger();
 
+    public Context(){
+
+    }
+
     public List<Double> getStack(){
         return stack;
     }

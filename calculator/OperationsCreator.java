@@ -41,15 +41,12 @@ public class OperationsCreator {
         Operation op = null;
         try{
             if(operations.get(name) == null){
-                throw new NoSuchOperationException("There is no operation called " + name);
+                throw new NoSuchOperationException("getOperation: there is no operation called " + name);
             }
             op = (Operation) Class.forName(operations.get(name)).newInstance();
         }
         catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {
             e.printStackTrace();
-        }
-        catch (NoSuchOperationException e){
-            System.out.println(e.getMessage());
         }
         return op;
     }

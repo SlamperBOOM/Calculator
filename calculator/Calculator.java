@@ -10,7 +10,10 @@ public class Calculator {
 
     public Calculator(){
         context = new Context();
+        context.getLogger().logInitialization("Initialized (Context)");
         operations = new OperationsCreator();
+        context.getLogger().logInitialization("Initialized (OperationsCreator)");
+        context.getLogger().logInitialization("Initialized (Calculator)");
     }
 
     public List<Double> getConstantStack(){
@@ -26,7 +29,7 @@ public class Calculator {
             } else {
                 operation.calc(new ArrayList<Value>(), context);
             }
-            context.getLogger().logInfo(arguments, oldStack, getConstantStack());
+            context.getLogger().logOperation(arguments, oldStack, getConstantStack());
         }catch (CalculatorException e){
             context.getLogger().logError(e);
             throw e;
