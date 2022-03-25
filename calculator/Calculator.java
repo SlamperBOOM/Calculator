@@ -35,9 +35,6 @@ public class Calculator {
                 operation.calc(new ArrayList<Value>(), context);
             }
             context.getLogger().logOperation(arguments, oldStack, getConstantStack());
-        }catch (CalculatorException e){
-            context.getLogger().logError(e);
-            throw e;
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException e){
             context.getLogger().logError(e);
             e.printStackTrace();
