@@ -32,7 +32,7 @@ public class Main {
                 try {
                     calculator.calculate(Arrays.asList(splitLine));
                 }
-                catch (Exception e){
+                catch (CalculatorException e){
                     calculator.getLogger().logError(e);
                     System.err.println(e.getMessage());
                 }

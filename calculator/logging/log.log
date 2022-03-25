@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2022-03-25T12:07:26.755095Z</date>
-  <millis>1648210046755</millis>
-  <nanos>95000</nanos>
+  <date>2022-03-25T12:11:46.870909700Z</date>
+  <millis>1648210306870</millis>
+  <nanos>909700</nanos>
   <sequence>0</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
@@ -14,9 +14,9 @@
   <message>Initialized (Context)</message>
 </record>
 <record>
-  <date>2022-03-25T12:07:26.818109200Z</date>
-  <millis>1648210046818</millis>
-  <nanos>109200</nanos>
+  <date>2022-03-25T12:11:46.908918400Z</date>
+  <millis>1648210306908</millis>
+  <nanos>918400</nanos>
   <sequence>1</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
@@ -26,9 +26,9 @@
   <message>Initialized (OperationsCreator)</message>
 </record>
 <record>
-  <date>2022-03-25T12:07:26.819109600Z</date>
-  <millis>1648210046819</millis>
-  <nanos>109600</nanos>
+  <date>2022-03-25T12:11:46.909919Z</date>
+  <millis>1648210306909</millis>
+  <nanos>919000</nanos>
   <sequence>2</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
@@ -38,9 +38,9 @@
   <message>Initialized (Calculator)</message>
 </record>
 <record>
-  <date>2022-03-25T12:07:26.876124200Z</date>
-  <millis>1648210046876</millis>
-  <nanos>124200</nanos>
+  <date>2022-03-25T12:11:46.917922800Z</date>
+  <millis>1648210306917</millis>
+  <nanos>922800</nanos>
   <sequence>3</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
@@ -50,9 +50,9 @@
   <message>push -2 to stack</message>
 </record>
 <record>
-  <date>2022-03-25T12:07:26.891127Z</date>
-  <millis>1648210046891</millis>
-  <nanos>127000</nanos>
+  <date>2022-03-25T12:11:46.919926200Z</date>
+  <millis>1648210306919</millis>
+  <nanos>926200</nanos>
   <sequence>4</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
@@ -62,9 +62,9 @@
   <message>define a as 4.5</message>
 </record>
 <record>
-  <date>2022-03-25T12:07:26.892126900Z</date>
-  <millis>1648210046892</millis>
-  <nanos>126900</nanos>
+  <date>2022-03-25T12:11:46.919926200Z</date>
+  <millis>1648210306919</millis>
+  <nanos>926200</nanos>
   <sequence>5</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
@@ -74,9 +74,9 @@
   <message>push a to stack</message>
 </record>
 <record>
-  <date>2022-03-25T12:07:26.921133500Z</date>
-  <millis>1648210046921</millis>
-  <nanos>133500</nanos>
+  <date>2022-03-25T12:11:46.921937900Z</date>
+  <millis>1648210306921</millis>
+  <nanos>937900</nanos>
   <sequence>6</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
@@ -86,9 +86,9 @@
   <message>sum -2.0 and 4.5. put 2.5 in stack</message>
 </record>
 <record>
-  <date>2022-03-25T12:07:26.922133600Z</date>
-  <millis>1648210046922</millis>
-  <nanos>133600</nanos>
+  <date>2022-03-25T12:11:46.922922700Z</date>
+  <millis>1648210306922</millis>
+  <nanos>922700</nanos>
   <sequence>7</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
@@ -98,9 +98,9 @@
   <message>push 2 to stack</message>
 </record>
 <record>
-  <date>2022-03-25T12:07:26.929134200Z</date>
-  <millis>1648210046929</millis>
-  <nanos>134200</nanos>
+  <date>2022-03-25T12:11:46.923922500Z</date>
+  <millis>1648210306923</millis>
+  <nanos>922500</nanos>
   <sequence>8</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
@@ -110,9 +110,9 @@
   <message>multiply 2.5 and 2.0. put 5.0 in stack</message>
 </record>
 <record>
-  <date>2022-03-25T12:07:26.950139100Z</date>
-  <millis>1648210046950</millis>
-  <nanos>139100</nanos>
+  <date>2022-03-25T12:11:46.924922200Z</date>
+  <millis>1648210306924</millis>
+  <nanos>922200</nanos>
   <sequence>9</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
@@ -122,9 +122,9 @@
   <message>print 5.0</message>
 </record>
 <record>
-  <date>2022-03-25T12:07:26.957145100Z</date>
-  <millis>1648210046957</millis>
-  <nanos>145100</nanos>
+  <date>2022-03-25T12:11:46.926923Z</date>
+  <millis>1648210306926</millis>
+  <nanos>923000</nanos>
   <sequence>10</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
@@ -134,22 +134,10 @@
   <message>pop 5.0 from stack</message>
 </record>
 <record>
-  <date>2022-03-25T12:07:26.958145600Z</date>
-  <millis>1648210046958</millis>
-  <nanos>145600</nanos>
+  <date>2022-03-25T12:11:46.927922Z</date>
+  <millis>1648210306927</millis>
+  <nanos>922000</nanos>
   <sequence>11</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>SEVERE</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logError</method>
-  <thread>1</thread>
-  <message>exceptions.EmptyStackException Pop: no values in stack</message>
-</record>
-<record>
-  <date>2022-03-25T12:07:26.958145600Z</date>
-  <millis>1648210046958</millis>
-  <nanos>145600</nanos>
-  <sequence>12</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>SEVERE</level>
   <class>calculator.CalculatorLogger</class>
