@@ -8,11 +8,7 @@ import java.io.*;
 public class OperationsCreator {
     public Map<String, String> operations = new HashMap<String, String>();
 
-    public OperationsCreator(){
-        readOperations();
-    }
-
-    private void readOperations(){
+    public void readOperations(CalculatorLogger logger){
         BufferedReader config = null;
         try{
             config = new BufferedReader(new FileReader("src/calculator/config.conf"));
@@ -23,6 +19,7 @@ public class OperationsCreator {
             }
         }
         catch (IOException e){
+            logger.logError(e);
             e.printStackTrace();
         }
         finally {
@@ -32,22 +29,18 @@ public class OperationsCreator {
                 }
             }
             catch (IOException e){
+                logger.logError(e);
                 e.printStackTrace();
             }
         }
     }
 
-    public Operation getOperation(String name) throws CalculatorException {
+    public Operation getOperation(String name) throws CalculatorException, ClassNotFoundException, InstantiationException, IllegalAccessException {
         Operation op = null;
-        try{
-            if(operations.get(name) == null){
-                throw new NoSuchOperationException("getOperation: there is no operation called " + name);
-            }
-            op = (Operation) Class.forName(operations.get(name)).newInstance();
+        if(operations.get(name) == null){
+            throw new NoSuchOperationException("getOperation: there is no operation called " + name);
         }
-        catch (ClassNotFoundException | InstantiationException | IllegalAccessException e) {
-            e.printStackTrace();
-        }
+        op = (Operation) Class.forName(operations.get(name)).newInstance();
         return op;
     }
 }

@@ -8,6 +8,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args){
         Reader input = null;
+        Calculator calculator = new Calculator();
         try{
             if(args.length == 0){
                 input = new InputStreamReader(System.in);
@@ -16,9 +17,14 @@ public class Main {
             {
                 input = new InputStreamReader(new FileInputStream(args[0]));
             }
-            Calculator calculator = new Calculator();
             while(true){
-                String[] splitLine = CommandReader.readOperation(input);
+                String[] splitLine;
+                try {
+                    splitLine = CommandReader.readOperation(input);
+                }catch (IOException e){
+                    calculator.getLogger().logError(e);
+                    continue;
+                }
                 if(splitLine[0].equals("")){
                     System.out.println("End of input");
                     break;
@@ -26,12 +32,14 @@ public class Main {
                 try {
                     calculator.calculate(Arrays.asList(splitLine));
                 }
-                catch (CalculatorException e){
+                catch (Exception e){
+                    calculator.getLogger().logError(e);
                     System.err.println(e.getMessage());
                 }
             }
         }
         catch (IOException e){
+            calculator.getLogger().logError(e);
             e.printStackTrace();
         }
         finally {
@@ -41,6 +49,7 @@ public class Main {
                 }
             }
             catch (IOException e){
+                calculator.getLogger().logError(e);
                 e.printStackTrace();
             }
         }

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-03-21T15:17:18.794074800Z</date>
+  <millis>1647875838794</millis>
+  <nanos>74800</nanos>
+  <sequence>50</sequence>
+  <logger>calculator.CalculatorLogger</logger>
+  <level>INFO</level>
+  <class>calculator.CalculatorLogger</class>
+  <method>logInitialization</method>
+  <thread>1</thread>
+  <message>Initialized (Context)</message>
+</record>
+<record>
+  <date>2022-03-21T15:17:18.795075200Z</date>
+  <millis>1647875838795</millis>
+  <nanos>75200</nanos>
+  <sequence>51</sequence>
+  <logger>calculator.CalculatorLogger</logger>
+  <level>INFO</level>
+  <class>calculator.CalculatorLogger</class>
+  <method>logInitialization</method>
+  <thread>1</thread>
+  <message>Initialized (OperationsCreator)</message>
+</record>
+<record>
+  <date>2022-03-21T15:17:18.796075200Z</date>
+  <millis>1647875838796</millis>
+  <nanos>75200</nanos>
+  <sequence>52</sequence>
+  <logger>calculator.CalculatorLogger</logger>
+  <level>INFO</level>
+  <class>calculator.CalculatorLogger</class>
+  <method>logInitialization</method>
+  <thread>1</thread>
+  <message>Initialized (Calculator)</message>
+</record>
+<record>
+  <date>2022-03-21T15:17:18.799075400Z</date>
+  <millis>1647875838799</millis>
+  <nanos>75400</nanos>
+  <sequence>53</sequence>
+  <logger>calculator.CalculatorLogger</logger>
+  <level>SEVERE</level>
+  <class>calculator.CalculatorLogger</class>
+  <method>logError</method>
+  <thread>1</thread>
+  <message>exceptions.NoConvertAvailableException Value.toDouble: couldn't convert a to Double</message>
+</record>
+</log>

@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2022-03-21T15:17:18.663043600Z</date>
-  <millis>1647875838663</millis>
-  <nanos>43600</nanos>
+  <date>2022-03-25T12:07:26.755095Z</date>
+  <millis>1648210046755</millis>
+  <nanos>95000</nanos>
   <sequence>0</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
@@ -14,9 +14,9 @@
   <message>Initialized (Context)</message>
 </record>
 <record>
-  <date>2022-03-21T15:17:18.693051700Z</date>
-  <millis>1647875838693</millis>
-  <nanos>51700</nanos>
+  <date>2022-03-25T12:07:26.818109200Z</date>
+  <millis>1648210046818</millis>
+  <nanos>109200</nanos>
   <sequence>1</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
@@ -26,9 +26,9 @@
   <message>Initialized (OperationsCreator)</message>
 </record>
 <record>
-  <date>2022-03-21T15:17:18.693051700Z</date>
-  <millis>1647875838693</millis>
-  <nanos>51700</nanos>
+  <date>2022-03-25T12:07:26.819109600Z</date>
+  <millis>1648210046819</millis>
+  <nanos>109600</nanos>
   <sequence>2</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
@@ -38,358 +38,10 @@
   <message>Initialized (Calculator)</message>
 </record>
 <record>
-  <date>2022-03-21T15:17:18.697052100Z</date>
-  <millis>1647875838697</millis>
-  <nanos>52100</nanos>
+  <date>2022-03-25T12:07:26.876124200Z</date>
+  <millis>1648210046876</millis>
+  <nanos>124200</nanos>
   <sequence>3</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>SEVERE</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logError</method>
-  <thread>1</thread>
-  <message>exceptions.EmptyStackException SquareRoot: no values in stack</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.712055400Z</date>
-  <millis>1647875838712</millis>
-  <nanos>55400</nanos>
-  <sequence>4</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Context)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.713055400Z</date>
-  <millis>1647875838713</millis>
-  <nanos>55400</nanos>
-  <sequence>5</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (OperationsCreator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.714055400Z</date>
-  <millis>1647875838714</millis>
-  <nanos>55400</nanos>
-  <sequence>6</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Calculator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.716055700Z</date>
-  <millis>1647875838716</millis>
-  <nanos>55700</nanos>
-  <sequence>7</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logOperation</method>
-  <thread>1</thread>
-  <message>define a as 4</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.720056800Z</date>
-  <millis>1647875838720</millis>
-  <nanos>56800</nanos>
-  <sequence>8</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>SEVERE</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logError</method>
-  <thread>1</thread>
-  <message>exceptions.NoParameterException getParameter: no parameter by name b</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.723057600Z</date>
-  <millis>1647875838723</millis>
-  <nanos>57600</nanos>
-  <sequence>9</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Context)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.724058300Z</date>
-  <millis>1647875838724</millis>
-  <nanos>58300</nanos>
-  <sequence>10</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (OperationsCreator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.725058600Z</date>
-  <millis>1647875838725</millis>
-  <nanos>58600</nanos>
-  <sequence>11</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Calculator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.726057900Z</date>
-  <millis>1647875838726</millis>
-  <nanos>57900</nanos>
-  <sequence>12</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>SEVERE</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logError</method>
-  <thread>1</thread>
-  <message>exceptions.EmptyStackException Print: nothing to print</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.729058900Z</date>
-  <millis>1647875838729</millis>
-  <nanos>58900</nanos>
-  <sequence>13</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Context)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.730059Z</date>
-  <millis>1647875838730</millis>
-  <nanos>59000</nanos>
-  <sequence>14</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (OperationsCreator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.731059200Z</date>
-  <millis>1647875838731</millis>
-  <nanos>59200</nanos>
-  <sequence>15</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Calculator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.732059400Z</date>
-  <millis>1647875838732</millis>
-  <nanos>59400</nanos>
-  <sequence>16</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>SEVERE</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logError</method>
-  <thread>1</thread>
-  <message>exceptions.TooSmallStackException Divide: too small stack. Must contains at least 2 values, actual size - 0</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.735060700Z</date>
-  <millis>1647875838735</millis>
-  <nanos>60700</nanos>
-  <sequence>17</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Context)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.736060500Z</date>
-  <millis>1647875838736</millis>
-  <nanos>60500</nanos>
-  <sequence>18</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (OperationsCreator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.737060400Z</date>
-  <millis>1647875838737</millis>
-  <nanos>60400</nanos>
-  <sequence>19</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Calculator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.739061400Z</date>
-  <millis>1647875838739</millis>
-  <nanos>61400</nanos>
-  <sequence>20</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>SEVERE</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logError</method>
-  <thread>1</thread>
-  <message>exceptions.TooSmallStackException Sum: too small stack. Must contains at least 2 values, actual size - 0</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.743062300Z</date>
-  <millis>1647875838743</millis>
-  <nanos>62300</nanos>
-  <sequence>21</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Context)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.744061900Z</date>
-  <millis>1647875838744</millis>
-  <nanos>61900</nanos>
-  <sequence>22</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (OperationsCreator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.744061900Z</date>
-  <millis>1647875838744</millis>
-  <nanos>61900</nanos>
-  <sequence>23</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Calculator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.746062300Z</date>
-  <millis>1647875838746</millis>
-  <nanos>62300</nanos>
-  <sequence>24</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>SEVERE</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logError</method>
-  <thread>1</thread>
-  <message>exceptions.NoArgumentsException Define: too few arguments, 1 given, 2 expected</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.749063100Z</date>
-  <millis>1647875838749</millis>
-  <nanos>63100</nanos>
-  <sequence>25</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Context)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.750063400Z</date>
-  <millis>1647875838750</millis>
-  <nanos>63400</nanos>
-  <sequence>26</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (OperationsCreator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.751064300Z</date>
-  <millis>1647875838751</millis>
-  <nanos>64300</nanos>
-  <sequence>27</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Calculator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.752065Z</date>
-  <millis>1647875838752</millis>
-  <nanos>65000</nanos>
-  <sequence>28</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>SEVERE</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logError</method>
-  <thread>1</thread>
-  <message>exceptions.TooSmallStackException Multiply: too small stack. Must contains at least 2 values, actual size - 0</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.756065500Z</date>
-  <millis>1647875838756</millis>
-  <nanos>65500</nanos>
-  <sequence>29</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Context)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.757065600Z</date>
-  <millis>1647875838757</millis>
-  <nanos>65600</nanos>
-  <sequence>30</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (OperationsCreator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.758067800Z</date>
-  <millis>1647875838758</millis>
-  <nanos>67800</nanos>
-  <sequence>31</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Calculator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.759065900Z</date>
-  <millis>1647875838759</millis>
-  <nanos>65900</nanos>
-  <sequence>32</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
   <class>calculator.CalculatorLogger</class>
@@ -398,94 +50,94 @@
   <message>push -2 to stack</message>
 </record>
 <record>
-  <date>2022-03-21T15:17:18.761066300Z</date>
-  <millis>1647875838761</millis>
-  <nanos>66300</nanos>
-  <sequence>33</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>SEVERE</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logError</method>
-  <thread>1</thread>
-  <message>exceptions.ImpossibleCalculationException SquareRoot: cannot calculate values below zero. Value - -2.0</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.764067Z</date>
-  <millis>1647875838764</millis>
-  <nanos>67000</nanos>
-  <sequence>34</sequence>
+  <date>2022-03-25T12:07:26.891127Z</date>
+  <millis>1648210046891</millis>
+  <nanos>127000</nanos>
+  <sequence>4</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
   <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
+  <method>logOperation</method>
   <thread>1</thread>
-  <message>Initialized (Context)</message>
+  <message>define a as 4.5</message>
 </record>
 <record>
-  <date>2022-03-21T15:17:18.765067200Z</date>
-  <millis>1647875838765</millis>
-  <nanos>67200</nanos>
-  <sequence>35</sequence>
+  <date>2022-03-25T12:07:26.892126900Z</date>
+  <millis>1648210046892</millis>
+  <nanos>126900</nanos>
+  <sequence>5</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
   <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
+  <method>logOperation</method>
   <thread>1</thread>
-  <message>Initialized (OperationsCreator)</message>
+  <message>push a to stack</message>
 </record>
 <record>
-  <date>2022-03-21T15:17:18.766066900Z</date>
-  <millis>1647875838766</millis>
-  <nanos>66900</nanos>
-  <sequence>36</sequence>
+  <date>2022-03-25T12:07:26.921133500Z</date>
+  <millis>1648210046921</millis>
+  <nanos>133500</nanos>
+  <sequence>6</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
   <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
+  <method>logOperation</method>
   <thread>1</thread>
-  <message>Initialized (Calculator)</message>
+  <message>sum -2.0 and 4.5. put 2.5 in stack</message>
 </record>
 <record>
-  <date>2022-03-21T15:17:18.771069900Z</date>
-  <millis>1647875838771</millis>
-  <nanos>69900</nanos>
-  <sequence>37</sequence>
+  <date>2022-03-25T12:07:26.922133600Z</date>
+  <millis>1648210046922</millis>
+  <nanos>133600</nanos>
+  <sequence>7</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
   <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
+  <method>logOperation</method>
   <thread>1</thread>
-  <message>Initialized (Context)</message>
+  <message>push 2 to stack</message>
 </record>
 <record>
-  <date>2022-03-21T15:17:18.772069800Z</date>
-  <millis>1647875838772</millis>
-  <nanos>69800</nanos>
-  <sequence>38</sequence>
+  <date>2022-03-25T12:07:26.929134200Z</date>
+  <millis>1648210046929</millis>
+  <nanos>134200</nanos>
+  <sequence>8</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
   <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
+  <method>logOperation</method>
   <thread>1</thread>
-  <message>Initialized (OperationsCreator)</message>
+  <message>multiply 2.5 and 2.0. put 5.0 in stack</message>
 </record>
 <record>
-  <date>2022-03-21T15:17:18.773069600Z</date>
-  <millis>1647875838773</millis>
-  <nanos>69600</nanos>
-  <sequence>39</sequence>
+  <date>2022-03-25T12:07:26.950139100Z</date>
+  <millis>1648210046950</millis>
+  <nanos>139100</nanos>
+  <sequence>9</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>INFO</level>
   <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
+  <method>logOperation</method>
   <thread>1</thread>
-  <message>Initialized (Calculator)</message>
+  <message>print 5.0</message>
 </record>
 <record>
-  <date>2022-03-21T15:17:18.774069800Z</date>
-  <millis>1647875838774</millis>
-  <nanos>69800</nanos>
-  <sequence>40</sequence>
+  <date>2022-03-25T12:07:26.957145100Z</date>
+  <millis>1648210046957</millis>
+  <nanos>145100</nanos>
+  <sequence>10</sequence>
+  <logger>calculator.CalculatorLogger</logger>
+  <level>INFO</level>
+  <class>calculator.CalculatorLogger</class>
+  <method>logOperation</method>
+  <thread>1</thread>
+  <message>pop 5.0 from stack</message>
+</record>
+<record>
+  <date>2022-03-25T12:07:26.958145600Z</date>
+  <millis>1648210046958</millis>
+  <nanos>145600</nanos>
+  <sequence>11</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>SEVERE</level>
   <class>calculator.CalculatorLogger</class>
@@ -494,159 +146,15 @@
   <message>exceptions.EmptyStackException Pop: no values in stack</message>
 </record>
 <record>
-  <date>2022-03-21T15:17:18.777070Z</date>
-  <millis>1647875838777</millis>
-  <nanos>70000</nanos>
-  <sequence>41</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Context)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.779069800Z</date>
-  <millis>1647875838779</millis>
-  <nanos>69800</nanos>
-  <sequence>42</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (OperationsCreator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.780070300Z</date>
-  <millis>1647875838780</millis>
-  <nanos>70300</nanos>
-  <sequence>43</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Calculator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.781070400Z</date>
-  <millis>1647875838781</millis>
-  <nanos>70400</nanos>
-  <sequence>44</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logOperation</method>
-  <thread>1</thread>
-  <message>push -2 to stack</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.781070400Z</date>
-  <millis>1647875838781</millis>
-  <nanos>70400</nanos>
-  <sequence>45</sequence>
+  <date>2022-03-25T12:07:26.958145600Z</date>
+  <millis>1648210046958</millis>
+  <nanos>145600</nanos>
+  <sequence>12</sequence>
   <logger>calculator.CalculatorLogger</logger>
   <level>SEVERE</level>
   <class>calculator.CalculatorLogger</class>
   <method>logError</method>
   <thread>1</thread>
-  <message>exceptions.ImpossibleCalculationException SquareRoot: cannot calculate values below zero. Value - -2.0</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.786073600Z</date>
-  <millis>1647875838786</millis>
-  <nanos>73600</nanos>
-  <sequence>46</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Context)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.787072200Z</date>
-  <millis>1647875838787</millis>
-  <nanos>72200</nanos>
-  <sequence>47</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (OperationsCreator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.788072500Z</date>
-  <millis>1647875838788</millis>
-  <nanos>72500</nanos>
-  <sequence>48</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Calculator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.790074600Z</date>
-  <millis>1647875838790</millis>
-  <nanos>74600</nanos>
-  <sequence>49</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>SEVERE</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logError</method>
-  <thread>1</thread>
-  <message>exceptions.TooSmallStackException Subtract: too small stack. Must contains at least 2 values, actual size - 0</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.794074800Z</date>
-  <millis>1647875838794</millis>
-  <nanos>74800</nanos>
-  <sequence>50</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Context)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.795075200Z</date>
-  <millis>1647875838795</millis>
-  <nanos>75200</nanos>
-  <sequence>51</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (OperationsCreator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.796075200Z</date>
-  <millis>1647875838796</millis>
-  <nanos>75200</nanos>
-  <sequence>52</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>INFO</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logInitialization</method>
-  <thread>1</thread>
-  <message>Initialized (Calculator)</message>
-</record>
-<record>
-  <date>2022-03-21T15:17:18.799075400Z</date>
-  <millis>1647875838799</millis>
-  <nanos>75400</nanos>
-  <sequence>53</sequence>
-  <logger>calculator.CalculatorLogger</logger>
-  <level>SEVERE</level>
-  <class>calculator.CalculatorLogger</class>
-  <method>logError</method>
-  <thread>1</thread>
-  <message>exceptions.NoConvertAvailableException Value.toDouble: couldn't convert a to Double</message>
+  <message>exceptions.EmptyStackException Pop: no values in stack</message>
 </record>
 </log>

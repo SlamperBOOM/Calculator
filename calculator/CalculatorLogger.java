@@ -42,7 +42,8 @@ public class CalculatorLogger {
         logger.info(message.toString());
     }
 
-    public void logError(CalculatorException exception){
+    public void logError(Exception exception){
+        exception.getStackTrace();
         logger.severe(exception.getClass().getName() + " " + exception.getMessage());
     }
 
