@@ -26,7 +26,6 @@ public class Main {
                     continue;
                 }
                 if(splitLine[0].equals("")){
-                    System.out.println("End of input");
                     break;
                 }
                 try {

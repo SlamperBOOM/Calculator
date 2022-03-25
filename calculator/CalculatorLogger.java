@@ -1,7 +1,5 @@
 package calculator;
 
-import exceptions.CalculatorException;
-
 import java.io.*;
 import java.util.logging.*;
 import java.util.*;
@@ -26,15 +24,12 @@ public class CalculatorLogger {
         }else if(command.size() == 2){ //only push
             message.append(command.get(1)).append(" to stack");
         }else{
-            if(command.get(0).equals("pop")){
-                message.append(oldStack.get(oldStack.size() - 1)).append(" from stack");
-            } else if(command.get(0).equals("print")){
-                message.append(oldStack.get(oldStack.size() - 1));
-            } else if(command.get(0).equals("sqrt")){
-                message.append(oldStack.get(oldStack.size() - 1)).append(". put ")
+            switch (command.get(0)) {
+                case "pop" -> message.append(oldStack.get(oldStack.size() - 1)).append(" from stack");
+                case "print" -> message.append(oldStack.get(oldStack.size() - 1));
+                case "sqrt" -> message.append(oldStack.get(oldStack.size() - 1)).append(". put ")
                         .append(newStack.get(newStack.size() - 1)).append(" in stack");
-            } else{
-                message.append(oldStack.get(oldStack.size() - 2)).append(" and ")
+                default -> message.append(oldStack.get(oldStack.size() - 2)).append(" and ")
                         .append(oldStack.get(oldStack.size() - 1)).append(". put ")
                         .append(newStack.get(newStack.size() - 1)).append(" in stack");
             }
@@ -43,8 +38,13 @@ public class CalculatorLogger {
     }
 
     public void logError(Exception exception){
-        exception.getStackTrace();
-        logger.severe(exception.getClass().getName() + " " + exception.getMessage());
+        StackTraceElement[] stackTrace = exception.getStackTrace();
+        StringBuilder message = new StringBuilder();
+        for(StackTraceElement elem: stackTrace) {
+            message.append(elem.toString()).append(", ");
+        }
+        message.append("\n").append(exception.getClass().getName()).append(" ").append(exception.getMessage());
+        logger.severe(message.toString());
     }
 
     public void logInitialization(String message){

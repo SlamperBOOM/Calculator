@@ -18,6 +18,7 @@ public class Define implements Operation{
             context.addParameter(parameterName, parameter);
         }
         catch (NumberFormatException e){
+            context.getLogger().logError(e);
             e.printStackTrace();
         }
     }
